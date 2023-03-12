@@ -4,17 +4,23 @@ body {
   margin: 0;
   padding: 0;
 }
+
 header {
-  background-color: rgb(211, 211, 211);
+  /* background-image: url("https://images.pexels.com/photos/270360/pexels-photo-270360.jpeg");*/
+  background-color: #ece6f5;
   display: flex;
+  justify-content: center;
   align-items: center;
 }
 h1 {
   margin: 5px;
 }
 img {
-  border-radius: 6%;
-  box-shadow: 10px 10px 30px;
+  border-radius: 50%;
+  margin: 0 auto;
+  width: 350px;
+  height: 350px;
+  box-shadow: 12px 0 #d9c8f1, 24px 0 #e2d6f3, 36px 0 #ece6f5;
 }
 main {
   margin: 20px;
